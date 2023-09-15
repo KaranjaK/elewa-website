@@ -1,0 +1,46 @@
+.edu-sol {
+  position: relative;
+  left: 219px;
+  top: 159px;
+  height: 1525px;
+  .learning-design {
+    margin-top: 47px;
+    padding-left: 50px;
+    padding-top: 150px;
+    width: 486px;
+    height: 530px;
+    background: #efe2ff 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    p {
+      width: 354px;
+      font-size: 20px;
+      text-align: justify;
+    }
+    .circles {
+      position: relative;
+      top: -80px;
+      .c1 {
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        background: transparent
+          linear-gradient(90deg, #dbc2f500 0%, #dbc2f5e6 100%) 0% 0% no-repeat
+          padding-box;
+        mix-blend-mode: multiply;
+      }
+      .c2 {
+        position: relative;
+        left: 150px;
+        top: -250px;
+        height: 250px;
+        width: 250px;
+        border-radius: 50%;
+        background: transparent
+          linear-gradient(90deg, #dbc2f500 0%, #dbc2f5e6 100%) 0% 0% no-repeat
+          padding-box;
+        mix-blend-mode: multiply;
+        transform: matrix(-1, 0, 0, -1, 0, 0);
+      }
+    }
+  }
+}
