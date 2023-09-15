@@ -109,7 +109,11 @@
       height: 530px;
       background: #fae9e8 0% 0% no-repeat padding-box;
       border-radius: 10px;
-      opacity: 1;
+      p {
+        width: 421px;
+        font-size: 20px;
+        text-align: justify;
+      }
     }
     .learn-design {
       margin-top: 12px;
