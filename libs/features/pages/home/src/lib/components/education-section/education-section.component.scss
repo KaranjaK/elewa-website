@@ -110,9 +110,35 @@
       background: #fae9e8 0% 0% no-repeat padding-box;
       border-radius: 10px;
       p {
-        width: 421px;
+        width: 351px;
         font-size: 20px;
         text-align: justify;
+      }
+      .rounded-rect {
+        position: relative;
+        left: 350px;
+        top: -200px;
+        .rect1 {
+          width: 200px;
+          height: 300px;
+          transform: matrix(0, 1, -1, 0, 0, 0);
+          background: transparent
+            linear-gradient(180deg, #e69083 0%, #e6908300 100%) 0% 0% no-repeat
+            padding-box;
+          border-radius: 110px;
+        }
+        .rect2 {
+          position: relative;
+          top: -230px;
+          left: 200px;
+          width: 200px;
+          height: 300px;
+          transform: matrix(0, -1, 1, 0, 0, 0);
+          background: transparent
+            linear-gradient(180deg, #e69083 0%, #e6908300 100%) 0% 0% no-repeat
+            padding-box;
+          border-radius: 110px;
+        }
       }
     }
     .learn-design {
