@@ -3,13 +3,18 @@
   left: 219px;
   top: 159px;
   height: 1525px;
+  overflow-x: hidden;
+  background-color: red;
   .top-layer {
-    display: flex;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
     .learning-design {
       margin-top: 47px;
       padding-left: 50px;
       padding-top: 150px;
-      width: 486px;
+      grid-column-start: 1;
+      grid-column-end: 2;
       height: 530px;
       background: #efe2ff 0% 0% no-repeat padding-box;
       border-radius: 10px;
@@ -47,10 +52,10 @@
     }
     .cont-dev {
       margin-top: 47px;
-      margin-left: 20px;
       padding-top: 150px;
       padding-left: 50px;
-      width: 996px;
+      grid-column-start: 2;
+      grid-column-end: 4;
       height: 530px;
       background: #fcf4df 0% 0% no-repeat padding-box;
       border-radius: 10px;
@@ -99,12 +104,15 @@
     }
   }
   .bottom-layer {
-    display: flex;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
     .conv-learning {
       margin-top: 12px;
       padding-top: 150px;
       padding-left: 50px;
-      width: 996px;
+      grid-column-start: 1;
+      grid-column-end: 2;
       height: 530px;
       background: #fae9e8 0% 0% no-repeat padding-box;
       border-radius: 10px;
@@ -145,7 +153,8 @@
       margin-left: 20px;
       padding-top: 150px;
       padding-left: 50px;
-      width: 486px;
+      grid-column-start: 2;
+      grid-column-end: 3;
       height: 530px;
       background: #fbe8d7 0% 0% no-repeat padding-box;
       border-radius: 10px;
@@ -161,10 +170,41 @@
         left: 20px;
         width: 448px;
         height: 196px;
-        background: transparent linear-gradient(289deg, #F2AD69 0%, #F2AD6900 100%) 0% 0% no-repeat padding-box;
+        background: transparent
+          linear-gradient(289deg, #f2ad69 0%, #f2ad6900 100%) 0% 0% no-repeat
+          padding-box;
         rotate: 340deg;
         border-radius: 110px;
       }
     }
+  }
+}
+@media (max-width: 1160px) {
+  .edu-sol {
+    width: 100%;
+    .top-layer {
+      width: 80%;
+      .learn-design {
+        width: 50%;
+      }
+      .cont-dev {
+        width: 50%;
+      }
+    }
+  }
+}
+@media (max-width: 768px) {
+  .edu-sol {
+    display: flex;
+    flex-direction: column;
+    left: 100px;
+    font-size: 12px;
+    line-height: 12px;
+  }
+}
+@media (max-width: 360px) {
+  .edu-sol {
+    font-size: 12px;
+    line-height: 11px;
   }
 }
