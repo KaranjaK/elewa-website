@@ -16,7 +16,7 @@
       p {
         width: 354px;
         font-size: 20px;
-        text-align: justify;
+        text-align: left;
       }
       .circles {
         position: relative;
@@ -57,7 +57,7 @@
       p {
         width: 421px;
         font-size: 20px;
-        text-align: justify;
+        text-align: left;
       }
       .curves {
         position: relative;
@@ -112,7 +112,7 @@
       p {
         width: 351px;
         font-size: 20px;
-        text-align: justify;
+        text-align: left;
       }
       .rounded-rect {
         position: relative;
@@ -150,6 +150,11 @@
       height: 530px;
       background: #fbe8d7 0% 0% no-repeat padding-box;
       border-radius: 10px;
+      p {
+        width: 351px;
+        font-size: 20px;
+        text-align: left;
+      }
     }
   }
 }
