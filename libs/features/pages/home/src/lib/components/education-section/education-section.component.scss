@@ -99,7 +99,23 @@
       }
     }
   }
-  .bottom-layer{
+  .bottom-layer {
     display: flex;
+    .conv-learning {
+      margin-top: 12px;
+      padding-top: 150px;
+      padding-left: 50px;
+      width: 996px;
+      height: 530px;
+      background: #fae9e8 0% 0% no-repeat padding-box;
+      border-radius: 10px;
+      opacity: 1;
+    }
+    .learn-design {
+      margin-top: 12px;
+      margin-left: 20px;
+      padding-top: 150px;
+      padding-left: 50px;
+    }
   }
 }
