@@ -94,7 +94,6 @@
             padding-box;
           mix-blend-mode: multiply;
           border-radius: 110px;
-          opacity: 1;
         }
       }
     }
@@ -150,10 +149,21 @@
       height: 530px;
       background: #fbe8d7 0% 0% no-repeat padding-box;
       border-radius: 10px;
+      overflow: hidden;
       p {
         width: 351px;
         font-size: 20px;
         text-align: left;
+      }
+      .gradient {
+        position: relative;
+        top: 180px;
+        left: 20px;
+        width: 448px;
+        height: 196px;
+        background: transparent linear-gradient(289deg, #F2AD69 0%, #F2AD6900 100%) 0% 0% no-repeat padding-box;
+        rotate: 340deg;
+        border-radius: 110px;
       }
     }
   }
