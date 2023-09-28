@@ -4,7 +4,6 @@
   top: 159px;
   height: 1525px;
   overflow-x: hidden;
-  background-color: red;
   .top-layer {
     display: grid;
     grid-template-columns: auto auto auto;
@@ -112,7 +111,7 @@
       padding-top: 150px;
       padding-left: 50px;
       grid-column-start: 1;
-      grid-column-end: 2;
+      grid-column-end: 3;
       height: 530px;
       background: #fae9e8 0% 0% no-repeat padding-box;
       border-radius: 10px;
@@ -153,8 +152,8 @@
       margin-left: 20px;
       padding-top: 150px;
       padding-left: 50px;
-      grid-column-start: 2;
-      grid-column-end: 3;
+      grid-column-start: 3;
+      grid-column-end: 4;
       height: 530px;
       background: #fbe8d7 0% 0% no-repeat padding-box;
       border-radius: 10px;
